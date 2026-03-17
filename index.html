@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            background-color: lightblue;
+         }
+             h3{
+                text-align: center;
+                background-color: green;
+            }
+             h6{
+                text-align: center;
+                background-color: blue;
+            }
+             p{
+                color:white;
+                background-color: black;
+             }
+             table{
+                background-color: white;
+             }
+
+             form{
+                background-color: white;
+             }
+            
+             .headclass{
+                color: white;
+             }
+
+             #head-id{
+                padding: 10px;
+                background-color: orange;
+                border: 2px solid black;
+                box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+                height: 200px; ;
+                width: 300px;
+                transition: all 0.3s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: underline;
+                border-radius: 50%;
+             }
+
+             #1st{
+                display: inline-block;
+                height: 100px;
+                width: 200px;
+             }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="headclass"><strong>Welcome</strong></h1>
+
+        <h3>Sub Heading</h3>
+
+        <h6 class="headclass"><u>Sub Sub Heading</u></h6>
+    </div>
+
+    <div>
+        <hr>
+        <p><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eaque reprehenderit repudiandae blanditiis, suscipit consequuntur labore est tenetur voluptate. Optio rerum pariatur earum atque hic. Cupiditate exercitationem minima sequi nisi.</b></p>
+        <hr>
+
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+        </ol>
+
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+        </ul>
+    </div>    
+
+    <div>
+        <table border="1" cellpadding="8" cellspacing="5">  
+            <tr>
+                <th>Class</th>
+                <th>Section</th>
+                <th>Roll No</th>
+                <th>Name</th>
+            </tr>
+            
+            <tr>
+                <td>12</td>  
+                <td>B</td>
+                <td>253256</td>
+                <td>Keshav</td>
+            </tr>
+
+            <tr>
+                <td>12</td>  
+                <td>B</td>
+                <td>253037</td>
+                <td>Pratyush</td>
+            </tr>
+        </table>
+    </div>   
+
+    <div>
+        <a href="https://www.google.com">Google</a>
+    </div>
+
+    <div>
+        <img src="1_V-Jp13LvtVc2IiY2fp4qYw.jpg" alt="Beautiful nature landscape">
+    </div>
+
+    <div>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+    </div>
+
+    <form action="submit.php" method="post">
+
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <input type="checkbox" name="subscribe" value="yes">
+        <label>Subscribe</label><br><br>  
+
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br><br>
+        
+        <label>Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <select name="cars">
+            <option>Volvo</option>
+            <option>Saab</option>
+            <option>Mercedes</option>
+            <option>Audi</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <div id="head-id">
+        <h1>Thank You</h1>
+    </div>
+
+    <div id="1st">
+        <h1>Heading</h1>
+    </div>
+</body>
+</html>
